@@ -35,7 +35,8 @@ I didn't recognize the hash format, so I started googling until I found a HiSili
 https://www.exploit-db.com/papers/44003
 
 On that excelent paper from Istvan Toth he describes the process he used to hack into the system extract the firmware, among that information he describes the user hash that the firmware uses. He even created a python2 script that replicate from the password the hash.
-I converted it to python3 and implemented a function to do a quick a dirty search, and it worked, I just try with 4 digits number password and it dumps some of the passwords, for the admin password on that dump I had to go the extra mile and add the word "admin" in front of the digits, and that revelaed the admin123 password.
+I converted it to python3 and implemented a function to do a quick a dirty bruteforce, and it worked, I just tried with 4 digits number password and it dumps some of the passwords, for the admin password on that dump I had to go the extra mile and add the word "admin" in front of the digits, and that revelaed the admin123 password.
+I guess you can improve it so it can bruteforce using characters, or wordlist, or even a hashcat input, but for me was enough this way.
 
 I'll paste the code here
 ```

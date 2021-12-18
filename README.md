@@ -17,7 +17,7 @@ PORT      STATE SERVICE
 MAC Address: 90:02:A9:9B:BB:F2 (Zhejiang Dahua Technology)
 ```
 
-Was a bit stuck, until I try to netcat to all the ports, see I can login into the port 6789, a debug port, very limited shell with a few commands, anmong them
+Was a bit stuck, until I try to netcat to all the ports, see I can login into the port 6789, a debug port, very limited shell with a few commands, among them
 *users -u* will dump some kind of user list and some kind of *hash*
    
 ```

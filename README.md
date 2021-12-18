@@ -1,7 +1,7 @@
 # HiSilicon_DVR_hack_python3
 Python3 script to bruteforce admin password
 
-So I have a DVR **Airspace CCTV** with a label Model: **SAM-1968**, user has login password as user, but no admin password
+So I have a DVR **Airspace CCTV** with a label Model: **SAM-1968**, user has a valid password as user, but don't have the password for the user *admin*, needed to change any settings on the DVR.
 
 nmap scan:
 ```
